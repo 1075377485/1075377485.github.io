@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天府佳肴 Sichuan cuisine</title>
+    <style>
+        a{font-size: 20px}
+        a:link{color: rgb(173, 127, 58);}
+        a:visited{color: rgba(9, 9, 40, 0.564);}
+        a:hover{color: #865860;}
+        a:active{color: yellow;}
+        li{
+            font-size: 30px;  }
+        #p1 {color: #ee8282;
+            font-size: 100px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            margin-left: 90px;
+            font-family: 隶书,serif;
+            width: 600px;
+            height:100px;
+            float: left}
+
+
+        #wxy{float: top;
+    margin: 10px;
+        }
+        h3{margin: 0;
+            background-color: rgba(210, 210, 163, 0.5);}
+
+
+        .wid {width: 1000px;margin: 0 auto;
+           height: 400px;}
+        #box2 div{width: 230px;
+        height: 180px;
+        float: left;
+        margin-right: 23px;
+        margin-bottom: 150px;
+
+
+        }
+        #box2 div:nth-child(4n){margin-right: 0;}
+        #box2 div img{width: 230px;
+        height: 180px;
+            float: left;
+       }
+        .clearfix{
+            content:'' ;
+            display: block;
+            clear: both;}
+        #box2 div p{background-color: rgba(210, 210, 163, 0.5);
+            margin: 0;
+        width: 230px;
+        height: 150px;}
+
+
+
+
+    </style>
+</head>
+<body background="背景图8.jpg" style="background-size: 100%">
+
+
+    <p id="p1">美食聚焦</p>
+
+   <ul>
+    <li><a href="shouye.html">首页</a></li>
+    <li><a href="zhuigensuyuan.html">追根溯源</a></li>
+    <li><a href="meishijvjiao.html">美食聚焦</a></li>
+    <li><a href="tiandianyinpin.html">甜点饮品</a></li>
+    </ul>
+
+    <div id="wxy" style="overflow:hidden;width:500px;margin-left: 320px">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tr><td id="wxy1" valign="top" align="center">
+                <table cellpadding="2" cellspacing="0" border="0">
+                    <tr align="center">
+                        <td><img src="food.jpg" width=250px height=200px alt=""></td>
+                        <td><img src="food1.jpg" width=250px height=200px alt=""></td>
+                        <td> <img src="food2.jpg" width=250px height=200px alt=""></td>
+                        <td><img src="饺子.jpg" width=250px height=200px alt=""></td>
+                        <td><img src="food3.jpg" width=250px height=200px alt=""></td>
+                        <td><img src="龙须牛肉.jpg" width=250px height=200px alt=""></td>
+                    </tr>
+                </table>
+            </td>
+                <td id="wxy2" valign="top"></td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        var speed=30//速度数值越大速度越慢
+        wxy2.innerHTML=wxy1.innerHTML
+        function Marquee4(){
+            if(wxy.scrollLeft<=0)
+                wxy.scrollLeft+=wxy2.offsetWidth
+            else{
+                wxy.scrollLeft--
+            }
+        }
+        var MyMar4=setInterval(Marquee4,speed)
+        wxy.οnmοuseοver=function() {clearInterval(MyMar4)}
+        wxy.οnmοuseοut=function() {MyMar4=setInterval(Marquee4,speed)}
+    </script>
+<div>
+    <p id="p3"><img src=""  alt=""></p>     
+</div>
+<div id="box2" class="wid clearfix" style="margin-bottom:0 " >
+
+    <div> <img src="麻婆豆腐1.jpg" alt=""> <h3>麻婆豆腐</h3>
+        <p>此菜成菜麻、辣、鲜、香、烫、脆、嫩、酥，将川菜麻辣味型的特点展现的淋漓尽致。</p></div>
+    <div> <img src="酸辣粉.jpg" alt="">  <h3>酸辣粉</h3>
+        <p>是一道四川成都名菜，由郭朝华、张田政夫妻创制而成。味道麻辣爽口，吃一口味蕾一下就被冲开了，让人食欲大增。</p></div>
+    <div> <img src="火锅1.jpg" alt=""> <h3>火锅</h3>
+        <p>火锅，古称“古董羹”，因食物投入沸水时发出的“咕咚”声而得名，是中国独创的美食之一，也是一种老少皆宜的食物。</p></div>
+    <div> <img src="龙须牛肉.jpg" alt=""> <h3>龙须牛肉</h3>
+        <p>龙须牛肉是一道小吃，属于川菜系。因配料独特，色泽红亮，肉香浓郁，回味悠长。顾名思义，龙须牛肉因为其纤维均匀，形如龙须，故名为龙须牛肉。</p></div>
+    <div> <img src="叶儿粑.jpg" alt="">  <h3>叶儿粑</h3>
+        <p>用糯米粉面包麻茸甜馅心或鲜肉咸馅心，置旺火蒸。特色是清香滋润，醇甜爽口，荷香味浓，菜分两味，咸鲜味美。</p></div>
+    <div> <img src="宫保鸡丁.jpg" alt=""> <h3>宫保鸡丁</h3>
+        <p>宫保鸡丁选用鸡肉为主料，佐以花生米、辣椒等辅料烹制而成；红而不辣、辣而不猛、香辣味浓、肉质滑脆，入口鲜辣。</p></div>
+    <div> <img src="钵钵鸡.jpg" alt="">  <h3>钵钵鸡</h3>
+        <p>以陶器钵盛放配以麻辣为主的佐料，加上多种调料的去 骨鸡片拌和而成。有皮脆肉嫩，麻辣鲜香，甜咸适中的特色。吃奶汤面时配以钵钵鸡，别具风格。</p></div>
+    <div> <img src="凉粉.jpg" alt=""> <h3>凉粉</h3>
+        <p>凉粉是一种小吃，主要原材料是凉粉草、大米、红薯和豌豆，以酱油、醋、辣椒油而食，清凉爽滑，为夏季风味食品。</p></div>
+    <div> <img src="担担面.jpg" alt="">  <h3>担担面</h3>
+        <p>该菜品起源于自贡市 ，由面粉、红辣椒油、芝麻酱、葱花等材料制作而成。面条细薄，卤汁酥香，咸鲜微辣，香气扑鼻，十分入味。此菜在四川广为流传，常作为筵席点心。。</p></div>
+    <div> <img src="龙抄手.jpg" alt=""> <h3>龙抄手</h3>
+        <p>四川红油抄手以面皮包肉馅，煮熟后加清汤、红油和其它调料即可食用。此种小吃柔嫩鲜美，汤汁微辣浓香。</p></div>
+    <div> <img src="夫妻肺片.jpg" alt="">  <h3>夫妻肺片</h3>
+        <p>通常以牛头皮、牛心、牛舌、牛肚、牛肉为主料，进行卤制，而后切片。再配以辣椒油、花椒面等辅料制成红油浇在上面。</p></div>
+    <div> <img src="水煮牛肉.jpg" alt=""> <h3>水煮牛肉</h3>
+        <p>此菜麻辣味厚，滑嫩适口，香味浓烈，具有川味火锅麻、辣、烫的风味，因菜中牛肉片是在辣味汤中烫熟，故名水煮牛肉。</p></div>
+</div>  
+</body>
+</html>
